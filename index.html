@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="scorePanal">
+            <div class="Hit">Hit <span class="scoreBox" id="hit"></span></div>
+            <div class="Time">Time <span class="scoreBox" id="Time"></span></div>
+            <div class="Score">Score <span class="scoreBox" id="Score"></span></div>
+        </div>
+        <div id="panel">
+
+        </div>
+        <div id="msg">
+            <div id="gamemsg"></div>
+            <div class="btn" id="start">Start</div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        for (i = 0; i <= 83; i++) {
+            panel.innerHTML += `<div class="bubble"></div>`;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
